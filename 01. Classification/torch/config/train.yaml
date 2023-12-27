@@ -1,0 +1,28 @@
+# Setting up data categories
+class_box: {"ES": ["ES", "NO-ES", "GE-ES"],
+            "GE": ["GE", "ES-GE", "CR-GE", "NO-GE"],
+}
+# class_box: {"BB": ["BB"],
+#             "SD": ["SD"],
+# }
+# class_box: {"ES": ["ES", "ES-GE", "NO-ES", "GE", "GE-ES", "CR-GE", "NO-GE"],
+#             "CR": ["CR", "CR-UB"],
+#             "BODY": ["UB", "CR-UB", "MB", "LB"],
+#             "AG": ["AG", "LB-AG", "MB-AG", "NO-AG", "AT-AG"],
+#             "AT": ["AT", "LB-AT", "BB-AT", "MB-AT", "AG-AT"],
+#             "DU": ["BB", "SD"],
+#             "NO": ["NO", "BB-NO", "LB-NO", "MB-NO", "SD-NO", "UB-NO", "AG-NO", "AT-NO"],
+# }
+# class_box: {"UB": ["UB", CR-UB],
+#             "MB": ["MB"],
+#             "LB": ["LB"],
+# }
+gpu: 0
+# https://pytorch.org/vision/0.14/models.html#classification
+model_name: inception_v3
+model_weight: IMAGENET1K_V1
+batch: 32
+optimizer: "SGD"
+epoch: 100
+initial_learning_rate: 1.0e-03
+learning_rate_gamma: 0.2
