@@ -1,0 +1,16 @@
+# video config for optical flow
+video_path: '01247583_001.mp4'
+algorithm: "gunner_farneback" # ["orb_homography", "lucas_kanade", "gunner_farneback", "rlof", "frame_info"]
+save: True
+img_save: False
+flow_show: False
+cut_frame: 8
+playback_time: 120
+size: 512
+croped_frame: [1199, 650, 532, 70] #[x1,y1,x2,y2]
+
+# 각 영상에 맞는 crop roi 선정
+# {'02201953_001.dcm.mp4': [25,695,480,1255],
+#  '04828273_001.dcm.mp4': [70,650,500,1166],
+#  '20220926.mp4'        : [97,940,950,1205],
+# }

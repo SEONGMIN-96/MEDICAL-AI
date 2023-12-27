@@ -1,0 +1,103 @@
+Cecal cancer
+Cecal ca.
+cecal cancer
+cecal ca.
+
+Ascending colon cancer
+ascending colon cancer
+A-colon cancer
+A-colon ca.
+A colon ca.
+A colon cancer
+Ascending colon ca.
+ascending colon ca.
+Right colon cancer
+Right colon ca.
+right colon cancer
+right colon ca.
+
+Hepatic flexure colon cancer
+Hepatic flexure colon ca.
+hepatic flexure colon cancer
+hepatic flexure colon ca.
+HF cancer
+HF ca.
+
+T colon cancer
+T colon ca.
+T-colon cancer
+T-colon ca.
+Transverse colon cancer
+Transverse colon ca.
+transverse colon cancer
+transverse colon ca.
+
+Splenic flexure colon cancer
+Splenic flexure colon ca.
+splenic flexure colon cancer
+splenic flexure colon ca.
+
+Descending colon cancer
+Descending colon ca.
+descending colon cancer
+descending colon ca.
+D-colon cancer
+D-colon ca.
+D colon cancer
+D colon ca.
+
+Sigmoid-descending junction cancer
+sigmoid-descending junction cancer
+S-D junction cancer
+SD junction cancer
+SDJ colon cancer
+SD colon cancer
+SD colon ca.
+
+Sigmoid colon cancer
+Sigmoid colon ca.
+sigmoid colon cancer
+sigmoid colon ca.
+S-colon cancer
+S-colon ca.
+S colon cancer
+S colon ca.
+
+Rectosigmoid junction cancer
+rectosigmoid junction cancer
+Rectosigmoid junction ca.
+Rectosigmoid colon cancer
+rectosigmoid colon cancer
+Rectosigmoid colon ca.
+RS junction cancer
+RS colon cancer
+
+Rectal cancer
+Rectal ca.
+rectal cancer
+rectal ca.
+
+Upper rectal cancer
+Upper rectal ca.
+upper rectal cancer
+upper rectal ca.
+High rectal cancer
+High rectal ca.
+high rectal cancer
+high rectal ca.
+
+Mid rectal cancer
+Mid rectal ca.
+mid rectal cancer
+mid rectal ca.
+
+Low rectal cancer
+Low rectal ca.
+low rectal cancer
+low rectal ca.
+Lower rectal cancer
+Lower rectal ca.
+lower rectal cancer
+lower rectal ca.
+
+DS junction cancer

@@ -1,0 +1,40 @@
+- cloud API 키 발급
+https://console.cloud.google.com/apis/dashboard
+
+: 새 프로젝트 생성 -> API 및 서비스 사용 설정 -> 사용자 인증 정보 만들기
+-> 서비스 계정 만들기(역할: 소유자) -> API 키 생성 (Json)
+: demo.py 내 환경변수 지정
+-> os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="###.json"
+
+- cloud sdk(window)
+https://cloud.google.com/sdk/docs/downloads-versioned-archives
+
+: 운영체제에 맞는 버전 다운로드
+: C:\ 압축해제
+: cmd -> sdk 경로 -> install.bat 실행 ex) c:\google-cloud-sdk\install.bat
+-> 활성 코드 페이지: 949 -> gcloud init 실행 ex) c:\google-cloud-sdk\gcloud init
+-> 웹 브라우저를 통해 구글 계정접속, google cloud sdk 계정 엑세스 -> 해당 프로젝트 인덱스 입력
+
+- 가상환경
+: Visual C++ 2015 Build Tools 설치
+
+: 버전 및 라이브러리
+-> python=3.6.0
+-> pip install -r requirements.txt
+
+- ffmpeg(window)
+https://ffmpeg.org/download.html#build-windows
+
+: Windows builds from gyan.dev
+: ffmpeg-git-essentials.7z or ffmpeg-git-full.7z
+: C:\ 압축해제
+: 환경 변수 -> "C:\ffmpeg\bin"
+: cmd -> ffmpeg -version 확인
+
+- nltk
+
+: import nltk
+: nltk.download() -> install all Identifier
+
+- 참조 블로그
+https://webnautes.tistory.com/1247

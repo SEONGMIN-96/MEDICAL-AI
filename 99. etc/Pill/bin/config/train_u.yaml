@@ -1,0 +1,13 @@
+dataset: pill_list.v1.0.4
+gpu: 0 #
+# 'EfficientNetB0', 'B1', 'B2', 'B3', 'B4','B5', 'B6', 'B7'
+# 'resnet50','resnet50V2','resnet101','resnet101V2','resnet152','resnet152V2','InceptionResNetV2'
+model_name: resnet101
+batch: 32
+optimizer: Adam
+epoch: 1500
+es_patience: 100
+reduce_lr_factor: 0.10
+initial_learning_rate: 1.0e-03
+reduce_lr_patience: 3
+learning_rate_scheduler: ReduceLROnPlateau #[ReduceLROnPlateau, CosineDecay]

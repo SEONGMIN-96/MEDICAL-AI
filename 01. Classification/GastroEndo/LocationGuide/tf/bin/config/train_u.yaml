@@ -1,0 +1,55 @@
+# Setting up data categories
+# data_classes: [
+#               ['ES', 'ES-GE', 'NO-ES'], 
+#               ['GE', 'GE-ES', 'CR-GE', 'NO-GE'], 
+#               ['CR', 'UB-CR', 'NO-CR'], 
+#               ['UB', 'CR-UB'], 
+#               ['MB'], 
+#               ['LB'], 
+#               ['AG', 'LB-AG', 'MB-AG', 'NO-AG', 'AT-AG'], 
+#               ['AT', 'LB-AT', 'BB-AT', 'MB-AT', 'AG-AT'], 
+#               ['BB'],
+#               ['SD'], 
+#               ['NO', 'BB-NO', 'LB-NO', 'MB-NO', 'SD-NO', 'UB-NO', 'AG-NO', 'AT-NO'],
+#               ]
+
+# data_classes: [
+#               ['ES', 'ES-GE', 'NO-ES', 'GE', 'GE-ES', 'CR-GE', 'NO-GE'], 
+#               ['CR', 'UB-CR', 'NO-CR'], 
+#               ['BODY', 'UB', 'CR-UB', 'MB', 'LB'], 
+#               ['AG', 'LB-AG', 'MB-AG', 'NO-AG', 'AT-AG'], 
+#               ['AT', 'LB-AT', 'BB-AT', 'MB-AT', 'AG-AT'], 
+#               ['DU', 'BB', 'SD'],
+#               ['NO', 'BB-NO', 'LB-NO', 'MB-NO', 'SD-NO', 'UB-NO', 'AG-NO', 'AT-NO'],
+#               ]
+
+# data_classes: [
+#               ['ES'], 
+#               ['GE'],
+#               ]
+
+data_classes: [
+              ['BB'], 
+              ['SD'],
+              ]
+
+# data_classes: [
+#               ['UB'], 
+#               ['MB'], 
+#               ['LB'],
+#               ]
+
+gpu: 0
+# 'EfficientNetB0', 'B1', 'B2', 'B3', 'B4','B5', 'B6', 'B7'
+# 'resnet50','resnet50V2','resnet101','resnet101V2','resnet152','resnet152V2','InceptionResNetV2', 'InceptionV3'
+# 'Residual_Attention92, Residual92'
+model_name: resnet101
+batch: 64
+optimizer: SGD
+epoch: 5
+es_patience: 50
+initial_learning_rate: 1.0e-05
+reduce_lr_factor: 0.10
+reduce_lr_patience: 10
+learning_rate_scheduler: ReduceLROnPlateau #[ReduceLROnPlateau, CosineDecay]
+trainable: True

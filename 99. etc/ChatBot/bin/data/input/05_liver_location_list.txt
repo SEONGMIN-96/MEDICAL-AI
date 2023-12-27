@@ -1,0 +1,20 @@
+S1
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+Right hemiliver
+Right lobe
+Right liver
+Left hemiliver
+Left lobe
+Left liver
+Both hemiliver
+Both lobe
+Right anterior section
+Right posterior section
+Left medial section
+Left lateral section

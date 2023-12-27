@@ -1,0 +1,8 @@
+1. dataload.py: 분할 학습용 데이터 로더
+2. dataload_classification.py: 분류 학습용 데이터 로더
+3. dataload_eval.py: 평가용 데이터로더
+4. loss_fuction: 손실함수 코드
+5. metrics: 분할 평가지표 코드
+6. metrics_class: 분류 평가지표 코드
+7. training_segmentation.py: 분할 코드
+8. training_classification_bbox_wc: 분류 코드(HCC-Hemangioma-Cyst)

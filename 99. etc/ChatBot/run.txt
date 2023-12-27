@@ -1,0 +1,1 @@
+python -m bin.demo.demo --report_path report_possible/<fname>
